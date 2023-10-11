@@ -12,6 +12,9 @@
     --second-color:#f8f2e2;
     --button-color:#e73232;
 }
+html{
+    scroll-padding-top: 6rem;
+}
 .align{
     max-width: 1200px;
     margin: auto;
@@ -92,7 +95,7 @@ nav{
 }
 /* home */
 .Home{
-    background: url(/images/home.bg.png);
+    background: url(images/home.bg.png);
     margin-top: 96px;
     height: 41.2rem;
     background-repeat: no-repeat;
@@ -668,6 +671,12 @@ small{
     .head2{
         display: none;
     }
+    .logo img{
+        position: relative;
+        top: 18px;
+        left: 30px;
+    
+    }
     .navLinks{
         height: 0;
         position: absolute;
@@ -693,7 +702,7 @@ small{
         height: 41px;
         width: 67px;
         padding: 0 10px;
-        bottom: 55px;
+        bottom: 45px;
         left: 70%;
         background-color: #ffffff;
         display: block;
@@ -713,12 +722,15 @@ small{
         display: block;
     }
     .Home{
-        background: url(/images/home.bg.png);
+        background: url(images/home.bg.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
     .caro{
         margin-top: 10px;
+    }
+    .caro h1{
+        font-size: 30px;
     }
     .caro p{
         width: 20rem;
@@ -862,6 +874,7 @@ small{
 
     .newscontainer .containers{
         position: relative;
+        top: 80px;
         left: 4px;
         width: 1000px;
         overflow: hidden;
